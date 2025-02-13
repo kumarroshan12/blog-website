@@ -1,0 +1,34 @@
+/* Destinations.css */
+
+.destination-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .destination-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .destination-box h3 {
+    margin-top: 0;
+  }
+  
+  .destination-box p {
+    margin: 0;
+  }
+  /* styles.css (or any preferred filename) */
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.destination-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+}

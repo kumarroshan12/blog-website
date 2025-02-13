@@ -1,0 +1,30 @@
+
+  .sidenav {
+    width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 30px;
+  left: 20px;
+    width: 200px;
+    height: 600px;
+    background-color: rgb(83, 246, 197); /* flashy red color */
+    transition: transform 0.3s ease; /* add a transition to the transform property */
+  }
+  
+  .sidenav a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* add a transition to the background-color property */
+  }
+  
+  .sidenav a:hover {
+    background-color: #fff; /* change the background color on hover */
+    color: rgb(22, 113, 97); /* change the text color on hover */
+    transform: translateX(10px); /* add a horizontal translation on hover */
+  }
+  
+  .sidenav:hover {
+    transform: scale(1.1); /* add a scale effect on hover */
+  }
