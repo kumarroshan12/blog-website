@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.8",
+    "booking": "file:",
     "bootstrap": "^5.3.3",
     "moment": "^2.29.4",
     "mysql2": "^3.9.7",
