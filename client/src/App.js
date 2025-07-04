@@ -30,7 +30,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
-    // Remember that Home, Single post and Write are the pages that will have a Navbar and a Footer
+    // Remember that Home, Single post and Write are the pages that will have a Navbar and a Footer 
     children: [
       {
         path: "/",
